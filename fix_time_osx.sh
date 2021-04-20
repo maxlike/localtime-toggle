@@ -18,7 +18,7 @@ fi
 
 echo "Copy file to destination place..."
 
-sudo cp -R "/tmp/localtime-toggle" "/usr/local/bin/"
+sudo cp -R "/tmp/localtime-toggle" "/usr/local/"
 sudo cp -R "/tmp/org.osx86.localtime-toggle.plist" "/Library/LaunchDaemons/"
 
 sudo rm /tmp/localtime-toggle
@@ -26,7 +26,7 @@ sudo rm /tmp/org.osx86.localtime-toggle.plist
 
 echo "Chmod localtime-toggle..."
 
-sudo chmod +x /usr/local/bin/localtime-toggle
+sudo chmod +x /usr/local/localtime-toggle
 
 echo "Chmod org.osx86.localtime-toggle.plist..."
 
